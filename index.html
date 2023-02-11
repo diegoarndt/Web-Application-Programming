@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>WikiHow</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header class="jumbotron text-center p-4">
+        <h1>WikiHow</h1>
+        <h6>by Diego Arndt</h6>
+    </header>
+
+    <main class="container">
+        <form class="d-flex flex-wrap align-items-center justify-content-center">
+            <label for="image-count">Quantity of instructions:</label>
+            <input id="image-count" type="number" min="1" max="50" value="5" class="form-control w-25 m-2">
+            <input type="button" id="btn-load" value="Load" class="btn btn-secondary m-2">
+        </form>
+        <div class="d-flex flex-wrap align-items-center justify-content-center">
+        </div>
+
+        <hr>
+
+        <section id="images-container"></section>
+        <div class="text-center alert" role="alert">
+            <span id="error-container"></span>
+        </div>
+    </main>
+</body>
+
+</html>
