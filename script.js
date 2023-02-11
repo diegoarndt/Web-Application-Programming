@@ -52,7 +52,7 @@ class View {
 
   updateImages(imgsWithSteps) {
     if (imgsWithSteps.length === 0) {
-      this.showError('Sorry, unfortunately no images have been found');
+      this.showError('Sorry, a minimum of 1 instruction is required. Please enter a valid number of instructions and try again.');
       return;
     }
 
