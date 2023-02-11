@@ -1,5 +1,4 @@
-# web-application-programming
-Web Application Programming - WDDM-120-0NA - Humber college
+# Web Application Programming - WDDM-120-0NA - Humber college
 
 Good codes don't need comments, and here are five reasons why I did not commented this code.
 
